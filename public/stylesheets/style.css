@@ -5,12 +5,16 @@
 }
 
 body {
-
+    background-image: url(../images/bridge.jpg);
 }
 
 a {
     color: #00b7ff;
 }
 
-
+#register-input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 

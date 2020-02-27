@@ -8,10 +8,10 @@ router.get('/', (req, res, next) => {
 
 //!login
 router.get('/login', (req, res) => {
-    res.send('hey from login')
+    res.render('main/login')
 })
 router.get('/register', (req, res) => {
-    res.send('hey from register')
+    res.render('main/register')
 })
 
 module.exports = router;
