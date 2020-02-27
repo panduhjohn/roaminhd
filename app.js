@@ -6,9 +6,10 @@ const logger = require('morgan');
 const mongoose = require('mongoose');
 const chalk = require('chalk');
 require('dotenv').config();
+require('./lib/passport')
 
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
+const indexRouter = require('./routes/indexRouter');
+const usersRouter = require('./routes/users/userRoutes');
 
 const app = express();
 
